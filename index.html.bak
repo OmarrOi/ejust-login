@@ -1,0 +1,880 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="https://sis.ejust.edu.eg/DXR.axd?r=1_3-CTxj7" /><link rel="stylesheet" type="text/css" href="https://sis.ejust.edu.eg/DXR.axd?r=1_4-CTxj7" /><link rel="stylesheet" type="text/css" href="https://sis.ejust.edu.eg/DXR.axd?r=1_2-CTxj7" /><meta http-equiv="X-UA-Compatible" content="IE=9" /><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link href="https://sis.ejust.edu.eg/App_Themes/default_hu.css" rel="stylesheet" type="text/css" /><title>
+
+</title>
+    <style type="text/css">
+        .style1
+        {
+            width: 45%;
+        }
+        #container
+        {
+            z-index:10000;
+            position :absolute;
+            top:5px;
+            /*left:300px;
+            border: 1px solid #BD0100; */
+            width:100%;
+        }
+    </style>
+</head>
+<body>
+<form name="form1" method="post" action="index.html" onsubmit="javascript:return WebForm_OnSubmit();" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'btnEnter')" id="form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMjEwNTE2NzEwNg9kFgICAw9kFgYCBg8QD2QWAh4Hb25jbGljawUbamF2YXNjcmlwdDpDaGVja0FwcGxpY2FudCgpZGRkAh4PZBYEAgEPZBYCZg9kFgICAQ8PZBYEHgdvbmZvY3VzBRZqYXZhc2NyaXB0OmNsZWFyVGV4dCgpHgZvbmJsdXIFFmphdmFzY3JpcHQ6cmVzZXRUZXh0KClkAgIPZBYCZg9kFgICAw88KwAFAQAPZBYCHgV2YWx1ZQUEcGFzc2QCIw8WAh4Fc3R5bGUFDWRpc3BsYXk6bm9uZTtkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYGBQxJbWFnZUJ1dHRvbjEFDEltYWdlQnV0dG9uMgULY2hrcmVtZW1iZXIFEUFTUHhQb3B1cENvbnRyb2wxBRBwb3BBY2NvdW50U2VsZWN0BRFwb3BDaGFuZ2VQYXNzd29yZJB/YNfWR8pZOrqwT9kApWUBmH85ADwlS5UOcWuzPu61" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="https://sis.ejust.edu.eg/WebResource.axd?d=ntCsHkQ0jPH8cD0WlH1EyZvZKqBf5ZkQvvRgmIJcknmy-kJpJlXYyPN1cKg1rgNqoBQIly-5tL__Xdga5PvLOcXawJvJJE86AaMjmBANgXA1&amp;t=638465127187615987" type="text/javascript"></script>
+
+
+<script src="https://sis.ejust.edu.eg/ScriptResource.axd?d=3jnbn7zOS5rZWgihcWTh4vhSanMtwmm7_mIPKpeYBJERA3OUXcCAJkc4bX2Rdg-gnF2F3Wfco8ja_DamHPsdrMlVXCntVl5ui_X3gUmUYf0Pb4P7M647hj09yxCC3-HrSjroj6-l18kjP9fl4R2mNAccSvBr32sO-0kKa11T21g1&amp;t=7e969891" type="text/javascript"></script>
+<script src="https://sis.ejust.edu.eg/ScriptResource.axd?d=rHQCHEXm1CpCoJYvGZ7Y2g6rZ6fhsP4eJFDjtAjF49it4IFiS8rFWhIi4Cqh36crrvAP6y0OLm3TWLSFyvC9RtisrMTmdCy8m_mldpXjNX-grssZP_bVWq4DqkP8A_RDzAWsGXpPiekKmFFgcjIJl3WiSGBvFfERQRL_a2Rzsa6tbC9OjApA8HV1MU39ajVI0&amp;t=2e7d0aca" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="https://sis.ejust.edu.eg/ScriptResource.axd?d=iF3maPaGsExQuqUfTlDJniRXcnGsby1TNTc5zJUDZ2mS034VZSp-p0QLcc5lF_0z_i-C63iHVEbzryW5xNZpBaYiSWEdlCJEGwr8a4qAUE4dEFWB8YCRLbw2sxNVCZDZBgSbA9SAXW6u285TF02i9_Uj_OfiPB0Vu_mKkh3wgXbyNHBeX1tmRHjFOrGatSUO0&amp;t=2e7d0aca" type="text/javascript"></script>
+<script src="https://sis.ejust.edu.eg/ScriptResource.axd?d=1E8kUEB-DmGawGj65ANcl2DidK_J7GVxmdtBTIIXQYtcvJz6JwRIPLC3t_m5E6qVGrzkT_6Ll1DGNolJ5EoaPEZIL3YGua9yYgkY0cI7OeTla1DHs1nihY4b9KjOSAkFrZ1Tkfs4LfEfwrMQapkuxw2&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<script src="https://sis.ejust.edu.eg/ScriptResource.axd?d=EBhlUKmTXRI8xi_p_J-yHNMIMifvv8fzUd-x-y7gFo7sOLRZ07HGtyhM_Hz1Xwu-ScC6xVEgdEPzdkDqWZNIEnahe9T_WocJ1vzJCWos-G70YgwCmD5tCTvtRrqdlVTK0&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<script src="https://sis.ejust.edu.eg/ScriptResource.axd?d=kCI34uybHbe_HrEJFTq1Wi9QTK1u-RvpPHb7swNgZ6RM0A-AmRNYZjosgd7FCPw5bA0KaLj9KQ4hXRpzs5D235iazoAl-OXZLS59QGscoQqp6Ufr9mLDm1Cb2rXbvQrHAu33qCydJIyf9yq0ArKOgw2&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<script src="https://sis.ejust.edu.eg/ScriptResource.axd?d=SWsOozO87zSR-BmpfMzATRpaxwKBllSgic90ua2-72VI1eFyYiEMiJu0ATybrDC-NO638p9afwjLglczo6f1I2paxI-vg1jya_4h6taaxwEgTvJ_K4vSglkQa1Ke5Oj7MOO51DR0Yy7zTe8vQtoRNg2&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<script src="https://sis.ejust.edu.eg/ScriptResource.axd?d=C0MVjtFSXACKE2N9icYXxrMwiIIrYg_aCT_uw00y9jcqdnzmbK20wpGiKQOvOazBAIWUZfgN1_T8cyHvXKTj8B8tOpC1a7YJvvH5q6wThD4r2LGHfVUA3f0bCu6CDsA_LSIOvoMfitZWwEj3LuFwBQ2&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<script src="https://sis.ejust.edu.eg/WebResource.axd?d=src0eoadTkYeZZmwhvqPvn67h9V0IrxzPNMnDqqFRfI6WqLVMQ2PDgspAfC15Z94MWSjw4LMRvAI28nYXyE0UL1FBsFo0X_hunzNM5Is2U41&amp;t=638465127187615987" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdABihgmslLpNWjwpkcPSPET+fyuRMssbdHxfyrWTOg19IUZzDJiOoRMwPO+miqFpXSxTpkAKvHlFmeWUpJ6tT4i4qYs1X7aZmCc4CU0bkNVODW1Suwa0QLRIqrvZxhRCPowd2NvjHOkq5wKoqN6Aim8WGmrdw3n6wigZNInhBOg4SB/JlHFnMxtSO4ZFlZcvs16+FVk/g4m/fSNR3IjRD4PwwYoL1xqHuH0jj1aPe89OZTkaurNLtvJRU+HveBxj+Od1I61NLgTHrLUHKeTIi5WfNOqNi85XetXaplfkejOOc893UC+tJZLVlc3AGivh5cxPQWzwVjJGN0tnYojBACEM1dJfaakld6vLl7AeuxMuAPIgVTxvPJl6qLK8uBYwDpcBEXL1g7DXo99P3iwiuynJcghSlsFrFsoAW2CcQVEmoPKpvYq5AYRAg0iKUntGOQuu+64rKWCj/+VS47sHzXfhUUnufaau+nSe2/QEs9PxnBkRD7PolSN4Xmhko1AZyugv8S1Dt415wHiqCKBKtbE1z0qqRG8wGS2KQuYbU9m4ebg==" />
+</div>
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager1', 'form1', ['tASPxPopupControl1$PopUpdate',''], [], [], 90, '');
+//]]>
+</script>
+
+    <script language="javascript" type="text/javascript">
+        function CheckApplicant() {
+            if (document.getElementById("ChkbxApplicant").checked) {
+
+                var showRegisterAndActivate = document.getElementById("txtShowRegistration").value;
+                document.getElementById("forgetpassword1").style.display = "none";
+                document.getElementById("lnkForgetPassword").style.display = "none";
+
+                if (showRegisterAndActivate == "1") {
+
+                    document.getElementById("liRegister").style.display = "block";
+                    document.getElementById("liActivate").style.display = "block";
+                }
+                else {
+
+                    document.getElementById("liRegister").style.display = "none";
+                    document.getElementById("liActivate").style.display = "none";
+
+                }
+
+                if (document.getElementById("tblUserQ")) {
+                    document.getElementById("tblUserQ").style.display = "none";
+                }
+            }
+            else {
+                document.getElementById("forgetpassword1").style.display = "none";
+                document.getElementById("lnkForgetPassword").style.display = "none";
+                document.getElementById("liRegister").style.display = "none";
+                document.getElementById("liActivate").style.display = "none";
+
+            }
+        }
+
+        function isCapLockOn(e) {
+
+            var charKeyCode = e.keyCode ? e.keyCode : e.which; // To work with both MSIE & Netscape
+
+            var shiftKey = e.shiftKey ? e.shiftKey : ((charKeyCode == 16) ? true : false);
+
+            // Check both the condition as described above
+
+            if (((charKeyCode >= 65 && charKeyCode <= 90) && !shiftKey)
+
+                    || ((charKeyCode >= 97 && charKeyCode <= 122) && shiftKey)) {
+
+                // Caps lock is on
+                document.getElementById("lblCapsLockStatus").innerHTML = "Caps lock is on";
+
+
+            }
+
+            else {
+
+                // Caps lock is off.
+
+                document.getElementById("lblCapsLockStatus").innerHTML = "";
+
+            }
+				if (e.which==60)
+                {
+                    alert (" You can not enter < ")
+    e.preventDefault();
+                }
+        }
+
+        function clearText() {
+            if (document.getElementById("txtQAnswer").value == 'Secret Answer')
+                document.getElementById("txtQAnswer").value = "";
+        }
+
+        function resetText() {
+            if (document.getElementById("txtQAnswer").value == "")
+                document.getElementById("txtQAnswer").value = 'Secret Answer'
+        }
+
+
+
+
+
+
+
+
+
+
+        var minPwdLength = 3;
+        var strongPwdLength = 6;
+
+        function UpdateIndicator() {
+            var strength = GetPasswordStrength(tbPassword.GetText());
+
+            var className;
+            var message;
+            if (strength == -1) {
+                className = 'pwdBlankBar';
+                message = "Empty";
+            } else if (strength == 0) {
+                className = 'pwdBlankBar';
+                message = "Too short";
+            } else if (strength <= 0.2) {
+                className = 'pwdWeakBar';
+                message = "Weak";
+            } else if (strength <= 0.6) {
+                className = 'pwdFairBar';
+                message = "Fair";
+            } else {
+                className = 'pwdStrengthBar';
+                message = "Strong";
+            }
+
+            // update css and message
+            var bar = document.getElementById("PasswordStrengthBar");
+            if (bar) {
+                bar.className = className;
+                lbMessagePassword.SetValue(message);
+            }
+        }
+        function GetPasswordStrength(password) {
+            if (password.length == 0) return -1;
+            if (password.length < minPwdLength) return 0;
+
+            var rate = 0;
+            if (password.length >= strongPwdLength) rate++;
+            if (password.match(/[0-9]/)) rate++;
+            if (password.match(/[a-z]/)) rate++;
+            if (password.match(/[A-Z]/)) rate++;
+            if (password.match(/[!,@,#,$,%,^,&,*,?,_,~,\-,(,),\s,\[,\],+,=,\,,<,>,:,;]/)) rate++;
+            return rate / 5;
+        }
+
+        function ConfirmedPassword_OnValidation(s, e) {
+            if (tbPassword.GetValue() != tbConfirmedPassword.GetValue()) {
+                e.isValid = false;
+                e.errorText = "Passwords do not match";
+            }
+        }
+
+        function SelectSingleRadiobutton(rdbtnid) {
+            var rdBtn = document.getElementById(rdbtnid);
+            var rdBtnList = document.getElementsByTagName("input");
+            for (i = 0; i < rdBtnList.length; i++) {
+                if (rdBtnList[i].type == "radio" && rdBtnList[i].id != rdBtn.id) {
+                    rdBtnList[i].checked = false;
+                }
+            }
+        }
+
+
+        function OpenReportPreview(sender, RptImage, RPTUrl) {
+            var url = '/UI/DeptHeadView/Report_Preview.aspx';
+            var params = "";
+            var style = "center:1;scroll=1;status:0;dialogWidth:850px;dialogHeight:500px";
+
+
+            if (RptImage != "" && RptImage != "0")
+                params += ((params == "") ? "" : "&") + "RptImage=" + RptImage;
+            if (params != "") {
+
+                url += "?" + params;
+            }
+
+            var ret = window.showModalDialog(url, null, style);
+            if (ret != null) {
+                if (ret == "T") {
+                    return true;
+                }
+                else return false;
+            }
+            else
+                return false;
+        }
+
+        function CheckAllDoc(HeaderCheckBox, RowCount, childName) {
+            var obj = document.getElementById(HeaderCheckBox.id);
+            var count = document.getElementById('ctl00_cntphmaster_ASPxRoundPanel3_grdRowCount').value;
+            var i = 0;
+            var k = 0;
+            var obj2 = false;
+            if (obj.checked == true) {
+                for (i = Number(count) + 1; i > 1; i--) {
+                    if (i < 10) {
+                        obj2 = document.getElementById("ctl00_cntphmaster_ASPxRoundPanel3_grdActivityHours_ctl0" + i + "_" + childName);
+                        if (obj2 != null) {
+                            obj2.checked = true;
+                        }
+                    }
+                    else {
+                        obj2 = document.getElementById("ctl00_cntphmaster_ASPxRoundPanel3_grdActivityHours_ctl" + i + "_" + childName);
+                        if (obj2 != null) {
+                            obj2.checked = true;
+                        }
+                    }
+                }
+            }
+            if (obj.checked == false) {
+                for (i = Number(count) + 1; i > 1; i--) {
+                    if (i < 10) {
+                        obj2 = document.getElementById("ctl00_cntphmaster_ASPxRoundPanel3_grdActivityHours_ctl0" + i + "_" + childName);
+                        if (obj2 != null) {
+                            obj2.checked = false;
+                        }
+                    }
+                    else {
+                        obj2 = document.getElementById("ctl00_cntphmaster_ASPxRoundPanel3_grdActivityHours_ctl" + i + "_" + childName);
+                        if (obj2 != null) {
+                            obj2.checked = false;
+                        }
+                    }
+                }
+            }
+        }
+        // -->        
+ 
+    </script>
+    <input name="txtShowRegistration" type="text" value="1" id="txtShowRegistration" class="hiddenCtrl" />
+<input name="txtShowLogin" type="text" value="1" id="txtShowLogin" class="hiddenCtrl" />
+    <div id="wrapper">
+<div id="header"> </div><!--header-->
+
+		<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
+           <div id="close_menu"><span id="close_showRight"><img src="https://sis.ejust.edu.eg/Images/x.png" title="Close" /></span></div><!--close_menu-->
+           <div id="Arabic_View"><span id="Arabic_showLeft">
+           
+               <input type="image" name="ImageButton1" id="ImageButton1" src="https://sis.ejust.edu.eg/Images/a.png" alt="Arabic" style="border-width:0px;" />
+           </span></div>
+           <div id="English_View"><span id="English_showLeft">
+           
+           <input type="image" name="ImageButton2" id="ImageButton2" src="https://sis.ejust.edu.eg/Images/e.png" alt="English" style="border-width:0px;" />
+           </span></div>
+           
+<div id="all_login" style="padding:15px;">
+        <h3>
+        LOGIN
+        </h3>
+        <label for="applicant"><h2></h2></label>
+        
+         <label for="name"><h2>User Name</h2></label>
+        <table>
+        <tr>
+        <td>
+        <div class="in_input"><img src="https://sis.ejust.edu.eg/Images/u.png" style="float:left;" /><input name="txtUsername" type="text" id="txtUsername" title="User Name" /></div><!--in_input-->
+        </td>
+        <td>
+        <span id="RequiredFieldValidator5" style="color:Red;display:none;">*</span>
+        <span id="RequiredFieldValidator6" style="color:Red;display:none;">*</span>
+        <span id="RequiredFieldValidator1" style="color:Red;display:none;">*</span>
+            <span id="RequiredFieldValidator7" style="color:Red;display:none;">*</span>
+            </td>
+        </tr>
+        </table>
+        <label for="password"><h2>Password</h2></label>
+        <table>
+        <tr>
+        <td>
+        <div class="in_input"><img src="https://sis.ejust.edu.eg/Images/l.png" style="float:left;" /><input name="txtPassword" type="password" maxlength="29" id="txtPassword" title="Password" onkeypress="isCapLockOn(event)" onpaste="return false" /></div><!--in_input-->
+        <span id="lblCapsLockStatus" style="color: Red; font-size: 80%;"></span>
+        </td>
+        <td>
+        <span id="RequiredFieldValidator2" style="color:Red;display:none;">*</span>
+             </td>
+        </tr>
+        </table>
+                  <label for="remeber"> <input id="chkremember" type="checkbox" name="chkremember" /><label for="chkremember">Remember Me ?</label> </label>
+
+        <div>
+        <input type="submit" name="btnEnter" value="Log In" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnEnter&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="btnEnter" title="Log In" class="sc-button" style="width:100px;" />
+        
+        </div>
+          
+                 <div id="RegisterUG" class="name_input"> 
+     
+                     <input type="submit" name="lnkRegisterUG" value=" Register for undergraduate " id="lnkRegisterUG" class="sc-button" style="color:#006600;width:205px;" />
+
+         </div>
+        
+            <div id="RegisterPG" class="name_input"> 
+
+                     <input type="submit" name="lnkRegisterPG" value=" Register for postgraduate " id="lnkRegisterPG" class="sc-button" style="color:#006600;width:205px;" />
+
+                     </div>
+                <div id="RegisterMBA" class="name_input">
+                     <input type="submit" name="lnkRegisterMBA" value="Register  to Diploma/MBA" id="lnkRegisterMBA" class="sc-button" style="color:#006600;width:205px;" />
+                </div>
+             
+               
+              
+        <ul>
+        <li style="border-bottom:1px solid #ffffff;">
+            <a id="ForgetPassword" href="https://sis.ejust.edu.eg/UI/UOB_Security/ForgetPassword.aspx">Forgot your password?</a>
+        <a id="lnkForgetPassword" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;lnkForgetPassword&quot;, &quot;&quot;, true, &quot;ChangePass&quot;, &quot;&quot;, false, true))" style="display:none">Forgot your password?</a>
+
+        <a id="forgetpassword1" class="hiddenCtrl" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;forgetpassword1&quot;, &quot;&quot;, true, &quot;pass&quot;, &quot;&quot;, false, true))" style="display:none">Forgot your password?</a> 
+        </li>
+        <li id="liRegister" class="hiddenCtrl">
+        <a id="lnkRegister" href="javascript:__doPostBack(&#39;lnkRegister&#39;,&#39;&#39;)">Register</a></li>
+        <li id="liActivate" class="hiddenCtrl">
+        <a id="lnkActivate" href="javascript:__doPostBack(&#39;lnkActivate&#39;,&#39;&#39;)">Activation</a>
+        </li>
+        </ul> 
+        <div style="width:100%;float:left" >
+          
+           <span id="compValPassword" style="display:inline-block;color:Red;width:180px;visibility:hidden;">Password and confirm password are different</span>
+        </div>
+        <div style="width:100%;float:left">
+           
+              
+                                                                
+        </div>
+        </div><!--all_login-->
+        
+		</nav>
+		
+		
+		<div class="container">
+			
+			<div class="main">
+				<section><span id="showRight">LOGIN</span></section>
+			
+			</div><!--main-->
+            
+		</div><!--container-->
+		<script src="https://sis.ejust.edu.eg/JavaScript/New_js/classie.js"></script>
+		<script type="text/javascript">
+		    var menuRight = document.getElementById('cbp-spmenu-s2'),
+				showRight = document.getElementById('showRight'),
+
+				body = document.body;
+
+
+		    showRight.onclick = function () {
+		        classie.toggle(this, 'active');
+		        classie.toggle(menuRight, 'cbp-spmenu-open');
+		        disableOther('showRight');
+
+		        if (document.getElementById("txtShowLogin")) {
+		            document.getElementById("txtShowLogin").value = "1";
+		        }
+		    };
+
+
+            function disableOther(button) {
+
+                if (button !== 'showRight') {
+                    classie.toggle(showRight, 'disabled');
+                }
+
+
+
+
+            }
+
+		</script>
+        <script>
+            var menuRight = document.getElementById('cbp-spmenu-s2'),
+				showRight = document.getElementById('close_showRight'),
+
+				body = document.body;
+
+
+            showRight.onclick = function () {
+                classie.toggle(this, 'active');
+                classie.toggle(menuRight, 'cbp-spmenu-open');
+                disableOther('showRight');
+
+                if (document.getElementById("txtShowLogin")) {
+                    document.getElementById("txtShowLogin").value = "0";
+                }
+            };
+
+
+            function disableOther(button) {
+
+                if (button !== 'close_showRight') {
+                    classie.toggle(showRight, 'disabled');
+                }
+
+
+
+
+            }
+
+
+
+		</script>
+        <script type="text/javascript" language="javascript">
+
+            if (document.getElementById("txtShowLogin")) {
+
+                if (document.getElementById("txtShowLogin").value == "1") {
+                    document.getElementById("cbp-spmenu-s2").className = "cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right cbp-spmenu-open";
+                }
+                else {
+                    document.getElementById("cbp-spmenu-s2").className = "cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right";
+                }
+            }
+
+            if (document.getElementById("btnEnter")) {
+                document.getElementById("btnEnter").focus();
+            }
+        </script>
+<div id="backgroun"></div>
+<div id="footer">
+<div class="holder">
+<p>&copy;&nbsp;Copyright 2018 . <a href="http://web.informatique-edu.com/">Informatique Edu</a> . All Rights Reserved</p>
+<div id="umis"><img src="https://sis.ejust.edu.eg/Images/umis11.png" /></div><!--umis-->
+</div><!--holder-->
+</div><!--footer-->
+
+</div><!--wrapper-->
+
+ <input type="hidden" id="ASPxPopupControl1WS" name="ASPxPopupControl1WS" value="0:0:-1:-10000:-10000:0:400px:-10000:1" /><script id="dxis_880721057" src="https://sis.ejust.edu.eg/DXR.axd?r=1_42-CTxj7" type="text/javascript"></script><script id="dxis_701814742" src="https://sis.ejust.edu.eg/DXR.axd?r=1_74-CTxj7" type="text/javascript"></script><script id="dxis_1469397646" src="https://sis.ejust.edu.eg/DXR.axd?r=1_67-CTxj7" type="text/javascript"></script><script id="dxis_1469431471" src="https://sis.ejust.edu.eg/DXR.axd?r=1_64-CTxj7" type="text/javascript"></script><div id="ASPxPopupControl1_PW-1" style="position:absolute;left:0px;top:0px;z-index:10000;visibility:hidden;display:none;">
+	<table id="ASPxPopupControl1_PWST-1" cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;border-collapse:separate;position:relative;">
+		<tr>
+			<td class="dxpcControl" onmousedown="aspxPWMDown(event,&#39;ASPxPopupControl1&#39;,-1,false)" onmousemove="aspxPWMMove(event,&#39;ASPxPopupControl1&#39;,-1)" style="width:400px;cursor:default;"><table id="ASPxPopupControl1_CLW-1" cellspacing="0" cellpadding="0" border="0" style="width:400px;border-collapse:collapse;border-collapse:separate;">
+				<tr>
+					<td id="ASPxPopupControl1_PWH-1" class="dxpcHeader" onmousedown="aspxPWDGMDown(event,&#39;ASPxPopupControl1&#39;,-1)" style="cursor:move;padding-left:12px;padding-right:2px;padding-top:2px;padding-bottom:2px;-khtml-user-select:none;"><table cellspacing="0" cellpadding="0" border="0" style="width:100%;border-collapse:collapse;border-collapse:separate;">
+						<tr>
+							<td class="dxpc" style="width:100%;">Forgot your password?</td><td style="padding-left:4px;"><table cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;border-collapse:separate;">
+								<tr>
+									<td id="ASPxPopupControl1_HCB-1" class="dxpcCloseButton" onclick="aspxPWCBClick(event, &#39;ASPxPopupControl1&#39;,-1)" onmousedown="return aspxPWCBMDown(event);" style="cursor:pointer;"><img id="ASPxPopupControl1_HCB-1Img" class="dxWeb_pcCloseButton" src="https://sis.ejust.edu.eg/DXR.axd?r=1_5-CTxj7" alt="[Close]" /></td>
+								</tr>
+							</table></td>
+						</tr>
+					</table></td>
+				</tr><tr>
+					<td id="ASPxPopupControl1_PWC-1" class="dxpcContent" style="height:100%;border-top-width:0px;"><div id="ASPxPopupControl1_CSD-1" class="dxpcContentPaddings">
+						
+                                                        <div id="ASPxPopupControl1_PopUpdate">
+							
+                                                                <table cellpadding="5px">
+                                                                    <tr>
+                                                                        <td>
+                                                                            <span id="ASPxPopupControl1_Label4">User Name</span>
+                                                                        </td>
+                                                                        <td>
+                                                                            <input name="ASPxPopupControl1$txtUserNameForget" type="text" id="ASPxPopupControl1_txtUserNameForget" />
+                                                                            <span id="ASPxPopupControl1_RequiredFieldValidator4" style="color:Red;visibility:hidden;">*</span>
+                                                                              
+                                                                        </td>
+                                                                        <td>
+                                                                            <input type="submit" name="ASPxPopupControl1$btnCheckUserName" value="Check" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ASPxPopupControl1$btnCheckUserName&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="ASPxPopupControl1_btnCheckUserName" />
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                              
+                                                            
+						</div>
+                                                    
+					</div></td>
+				</tr>
+			</table></td><td style="background:url('https://sis.ejust.edu.eg/DXR.axd?r=1_25-CTxj7') no-repeat left top;"></td>
+		</tr><tr>
+			<td style="background:url('https://sis.ejust.edu.eg/DXR.axd?r=1_24-CTxj7') no-repeat left top;"></td><td style="background:url('https://sis.ejust.edu.eg/DXR.axd?r=1_26-CTxj7') no-repeat left top;"><div style="height:5px;width:5px;">
+
+			</div></td>
+		</tr>
+	</table>
+</div><script id="dxss_1984350371" type="text/javascript">
+<!--
+aspxAddHoverItems('ASPxPopupControl1',[[['dxpcCloseButtonHover'],[''],['HCB-1'],,[['']],['Img']]]);
+
+var dxo = new ASPxClientPopupControl('ASPxPopupControl1');
+window['ASPxPopupControl1'] = dxo;
+dxo.allowResize=true;
+dxo.closeAction='CloseButton';
+dxo.isPopupPositionCorrectionOn=false;
+dxo.allowDragging=true;
+dxo.width=400;
+dxo.height=0;
+dxo.InlineInitialize();
+
+//-->
+</script>
+        
+        <input type="hidden" id="popAccountSelectWS" name="popAccountSelectWS" value="0:0:-1:-10000:-10000:0:400px:-10000:1" /><div id="popAccountSelect_PW-1" style="position:absolute;left:0px;top:0px;z-index:10000;visibility:hidden;display:none;">
+	<table id="popAccountSelect_PWST-1" cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;border-collapse:separate;position:relative;">
+		<tr>
+			<td class="dxpcControl" onmousedown="aspxPWMDown(event,&#39;popAccountSelect&#39;,-1,false)" style="width:400px;cursor:default;"><table id="popAccountSelect_CLW-1" cellspacing="0" cellpadding="0" border="0" style="width:400px;border-collapse:collapse;border-collapse:separate;">
+				<tr>
+					<td id="popAccountSelect_PWH-1" class="dxpcHeader" style="padding-left:12px;padding-right:2px;padding-top:2px;padding-bottom:2px;"><table cellspacing="0" cellpadding="0" border="0" style="width:100%;border-collapse:collapse;border-collapse:separate;">
+						<tr>
+							<td class="dxpc" style="width:100%;">Select Account</td><td style="padding-left:4px;"><table cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;border-collapse:separate;">
+								<tr>
+									<td id="popAccountSelect_HCB-1" class="dxpcCloseButton" onclick="aspxPWCBClick(event, &#39;popAccountSelect&#39;,-1)" onmousedown="return aspxPWCBMDown(event);" style="cursor:pointer;"><img id="popAccountSelect_HCB-1Img" class="dxWeb_pcCloseButton" src="https://sis.ejust.edu.eg/DXR.axd?r=1_5-CTxj7" alt="[Close]" /></td>
+								</tr>
+							</table></td>
+						</tr>
+					</table></td>
+				</tr><tr>
+					<td id="popAccountSelect_PWC-1" class="dxpcContent" style="height:100%;border-top-width:0px;"><div id="popAccountSelect_CSD-1" class="dxpcContentPaddings">
+						
+                                                    <input type="hidden" name="popAccountSelect$hidUserID" id="popAccountSelect_hidUserID" />
+                                                    <span id="popAccountSelect_Label3">You have more than one account to login to.<br/>Please select the desired account then press Enter.<br/></span>
+                                                    
+                                                    <input type="submit" name="popAccountSelect$btnSelectAccount" value="Enter" id="popAccountSelect_btnSelectAccount" style="width:75px;" />
+                                                
+					</div></td>
+				</tr>
+			</table></td><td style="background:url('https://sis.ejust.edu.eg/DXR.axd?r=1_25-CTxj7') no-repeat left top;"></td>
+		</tr><tr>
+			<td style="background:url('https://sis.ejust.edu.eg/DXR.axd?r=1_24-CTxj7') no-repeat left top;"></td><td style="background:url('https://sis.ejust.edu.eg/DXR.axd?r=1_26-CTxj7') no-repeat left top;"><div style="height:5px;width:5px;">
+
+			</div></td>
+		</tr>
+	</table>
+</div><div id="popAccountSelect_DXPWMB-1" class="dxpcModalBackground" style="position:absolute;visibility:hidden;left:0px;top:0px;z-index:9999;">
+
+</div><script id="dxss_1104400892" type="text/javascript">
+<!--
+aspxAddHoverItems('popAccountSelect',[[['dxpcCloseButtonHover'],[''],['HCB-1'],,[['']],['Img']]]);
+
+var dxo = new ASPxClientPopupControl('popAccountSelect');
+window['popAccountSelect'] = dxo;
+dxo.closeAction='CloseButton';
+dxo.popupHorizontalAlign='WindowCenter';
+dxo.popupVerticalAlign='Below';
+dxo.isPopupPositionCorrectionOn=false;
+dxo.width=400;
+dxo.height=0;
+dxo.InlineInitialize();
+
+//-->
+</script>
+            
+       <input type="hidden" id="popChangePasswordWS" name="popChangePasswordWS" value="0:0:-1:-10000:-10000:0:400px:-10000:1" /><div id="popChangePassword_PW-1" style="position:absolute;left:0px;top:0px;z-index:10000;visibility:hidden;display:none;">
+	<table id="popChangePassword_PWST-1" cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;border-collapse:separate;position:relative;">
+		<tr>
+			<td class="dxpcControl" onmousedown="aspxPWMDown(event,&#39;popChangePassword&#39;,-1,false)" style="width:400px;cursor:default;"><table id="popChangePassword_CLW-1" cellspacing="0" cellpadding="0" border="0" style="width:400px;border-collapse:collapse;border-collapse:separate;">
+				<tr>
+					<td id="popChangePassword_PWH-1" class="dxpcHeader" style="padding-left:12px;padding-right:2px;padding-top:2px;padding-bottom:2px;"><table cellspacing="0" cellpadding="0" border="0" style="width:100%;border-collapse:collapse;border-collapse:separate;">
+						<tr>
+							<td class="dxpc" style="width:100%;">Confirm Password</td><td style="padding-left:4px;"><table cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;border-collapse:separate;">
+								<tr>
+									<td id="popChangePassword_HCB-1" class="dxpcCloseButton" onclick="aspxPWCBClick(event, &#39;popChangePassword&#39;,-1)" onmousedown="return aspxPWCBMDown(event);" style="cursor:pointer;"><img id="popChangePassword_HCB-1Img" class="dxWeb_pcCloseButton" src="https://sis.ejust.edu.eg/DXR.axd?r=1_5-CTxj7" alt="[Close]" /></td>
+								</tr>
+							</table></td>
+						</tr>
+					</table></td>
+				</tr><tr>
+					<td id="popChangePassword_PWC-1" class="dxpcContent" style="height:100%;border-top-width:0px;"><div id="popChangePassword_CSD-1" class="dxpcContentPaddings">
+						
+                        <span id="popChangePassword_Label5"></span>
+                    <input type="hidden" name="popChangePassword$hdnchngPassUserId" id="popChangePassword_hdnchngPassUserId" />
+                    
+                  <table cellpadding="3" cellspacing="3" width="100%">
+                    <tr>
+                        <td>                              
+                            <span id="popChangePassword_Label1">Password</span>
+                        </td>
+                        <td>
+                           <input name="popChangePassword$txtNewPassword" type="password" id="popChangePassword_txtNewPassword" />
+                                <span id="popChangePassword_reqValPassword" style="color:Red;display:none;">*</span>
+                                            
+                            <span id="popChangePassword_RegularExpressionValidator1" title="At Least 8 Characters &amp; Complex Password" style="color:Red;display:none;">At Least 8 Characters & Complex Password</span>
+                        </td>
+                           <td valign="top">                                
+                            <div>
+                                
+                            </div>                                 
+                           </td>
+                    </tr>
+                    <tr>
+                    <td>                              
+                        <span id="popChangePassword_Label2">Confirm Password</span>
+                    </td>
+                    <td>
+                        <input name="popChangePassword$txtConfirmPassword" type="password" id="popChangePassword_txtConfirmPassword" />
+                           <span id="popChangePassword_RequiredFieldValidator10" style="color:Red;display:none;">*</span>
+                    </td>
+                    <td>
+                        <span id="popChangePassword_CompareValidator1" style="color:Red;visibility:hidden;">Password and confirm password are different</span>
+                    </td>
+                </tr>
+                </table>
+
+                    <input type="submit" name="popChangePassword$btnChange" value="Change password" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;popChangePassword$btnChange&quot;, &quot;&quot;, true, &quot;ChangePass&quot;, &quot;&quot;, false, false))" id="popChangePassword_btnChange" style="width:75px;" />
+                    
+                <ul  class="uistyle">
+       
+               <li> <span id="popChangePassword_lblNote1">Password must be at least 8 characters</span></li>
+                <li><span id="popChangePassword_lblNote2">Password must contain capital and small letters</span></li>
+                <li><span id="popChangePassword_lblNote3">Password must contain at least one number</span></li>
+                 <li><span id="popChangePassword_lblNote4">Password must contain at least one special character</span></li>
+                </ul>
+                
+					</div></td>
+				</tr>
+			</table></td><td style="background:url('https://sis.ejust.edu.eg/DXR.axd?r=1_25-CTxj7') no-repeat left top;"></td>
+		</tr><tr>
+			<td style="background:url('https://sis.ejust.edu.eg/DXR.axd?r=1_24-CTxj7') no-repeat left top;"></td><td style="background:url('https://sis.ejust.edu.eg/DXR.axd?r=1_26-CTxj7') no-repeat left top;"><div style="height:5px;width:5px;">
+
+			</div></td>
+		</tr>
+	</table>
+</div><div id="popChangePassword_DXPWMB-1" class="dxpcModalBackground" style="position:absolute;visibility:hidden;left:0px;top:0px;z-index:9999;">
+
+</div><script id="dxss_1434485738" type="text/javascript">
+<!--
+aspxAddHoverItems('popChangePassword',[[['dxpcCloseButtonHover'],[''],['HCB-1'],,[['']],['Img']]]);
+
+var dxo = new ASPxClientPopupControl('popChangePassword');
+window['popChangePassword'] = dxo;
+dxo.closeAction='CloseButton';
+dxo.popupHorizontalAlign='WindowCenter';
+dxo.popupVerticalAlign='Below';
+dxo.isPopupPositionCorrectionOn=false;
+dxo.width=400;
+dxo.height=0;
+dxo.InlineInitialize();
+
+//-->
+</script>
+
+
+
+     <div id="container" align="center" style="display:none;">
+    <div style="width:50%; border:1px solid #BD0100;border-radius:5px;-moz-box-shadow: inset 0 0 1px #BD0100;
+-webkit-box-shadow: inset 0 0 2px #BD0100;
+box-shadow: inner 0 0 2px #BD0100; background-color:#BD0100; padding:1px;">
+    
+      <table cellpadding="2" cellspacing="0" width="100%" > 
+    
+        <tr>
+            <td dir="rtl" style="background-color: #F0F0F0; padding:5px;">
+                 <marquee id="myMarquee" style="width:100%; height:83px" scrolldelay="800" direction="up" scrollamount="6" onmouseover="this.scrollAmount = 0" onmouseout="this.scrollAmount = 6">
+           
+                    <span id="lblNotifications"></span>
+             
+                </marquee>
+            </td>
+            <td align="center" valign="bottom" style="background-color:#BD0100; width:93px">  
+                <img src="https://sis.ejust.edu.eg/melhefnawy.jpg" alt="IIS7" style="height: 32px; width: 90px;" />
+            </td>
+        </tr>
+     </table>
+     </div>
+   </div>
+
+
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("RequiredFieldValidator5"), document.getElementById("RequiredFieldValidator6"), document.getElementById("RequiredFieldValidator1"), document.getElementById("RequiredFieldValidator7"), document.getElementById("RequiredFieldValidator2"), document.getElementById("compValPassword"), document.getElementById("ASPxPopupControl1_RequiredFieldValidator4"), document.getElementById("popChangePassword_reqValPassword"), document.getElementById("popChangePassword_RegularExpressionValidator1"), document.getElementById("popChangePassword_RequiredFieldValidator10"), document.getElementById("popChangePassword_CompareValidator1"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var RequiredFieldValidator5 = document.all ? document.all["RequiredFieldValidator5"] : document.getElementById("RequiredFieldValidator5");
+RequiredFieldValidator5.controltovalidate = "txtUsername";
+RequiredFieldValidator5.errormessage = "*";
+RequiredFieldValidator5.display = "Dynamic";
+RequiredFieldValidator5.enabled = "False";
+RequiredFieldValidator5.validationGroup = "pass";
+RequiredFieldValidator5.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator5.initialvalue = "";
+var RequiredFieldValidator6 = document.all ? document.all["RequiredFieldValidator6"] : document.getElementById("RequiredFieldValidator6");
+RequiredFieldValidator6.controltovalidate = "txtUsername";
+RequiredFieldValidator6.errormessage = "*";
+RequiredFieldValidator6.display = "Dynamic";
+RequiredFieldValidator6.enabled = "False";
+RequiredFieldValidator6.validationGroup = "active";
+RequiredFieldValidator6.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator6.initialvalue = "";
+var RequiredFieldValidator1 = document.all ? document.all["RequiredFieldValidator1"] : document.getElementById("RequiredFieldValidator1");
+RequiredFieldValidator1.controltovalidate = "txtUsername";
+RequiredFieldValidator1.errormessage = "*";
+RequiredFieldValidator1.display = "Dynamic";
+RequiredFieldValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator1.initialvalue = "";
+var RequiredFieldValidator7 = document.all ? document.all["RequiredFieldValidator7"] : document.getElementById("RequiredFieldValidator7");
+RequiredFieldValidator7.controltovalidate = "txtUsername";
+RequiredFieldValidator7.errormessage = "*";
+RequiredFieldValidator7.display = "Dynamic";
+RequiredFieldValidator7.validationGroup = "ChangePass";
+RequiredFieldValidator7.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator7.initialvalue = "";
+var RequiredFieldValidator2 = document.all ? document.all["RequiredFieldValidator2"] : document.getElementById("RequiredFieldValidator2");
+RequiredFieldValidator2.controltovalidate = "txtPassword";
+RequiredFieldValidator2.errormessage = "*";
+RequiredFieldValidator2.display = "Dynamic";
+RequiredFieldValidator2.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator2.initialvalue = "";
+var compValPassword = document.all ? document.all["compValPassword"] : document.getElementById("compValPassword");
+compValPassword.controltovalidate = "tbConfirmedPasswordd";
+compValPassword.errormessage = "Password and confirm password are different";
+compValPassword.validationGroup = "SetPass";
+compValPassword.evaluationfunction = "CompareValidatorEvaluateIsValid";
+compValPassword.controltocompare = "tbPassword";
+compValPassword.controlhookup = "tbPassword";
+var ASPxPopupControl1_RequiredFieldValidator4 = document.all ? document.all["ASPxPopupControl1_RequiredFieldValidator4"] : document.getElementById("ASPxPopupControl1_RequiredFieldValidator4");
+ASPxPopupControl1_RequiredFieldValidator4.controltovalidate = "ASPxPopupControl1_txtUserNameForget";
+ASPxPopupControl1_RequiredFieldValidator4.errormessage = "*";
+ASPxPopupControl1_RequiredFieldValidator4.validationGroup = "Check";
+ASPxPopupControl1_RequiredFieldValidator4.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ASPxPopupControl1_RequiredFieldValidator4.initialvalue = "";
+var popChangePassword_reqValPassword = document.all ? document.all["popChangePassword_reqValPassword"] : document.getElementById("popChangePassword_reqValPassword");
+popChangePassword_reqValPassword.controltovalidate = "popChangePassword_txtNewPassword";
+popChangePassword_reqValPassword.errormessage = "*";
+popChangePassword_reqValPassword.display = "Dynamic";
+popChangePassword_reqValPassword.validationGroup = "ChangePass";
+popChangePassword_reqValPassword.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+popChangePassword_reqValPassword.initialvalue = "";
+var popChangePassword_RegularExpressionValidator1 = document.all ? document.all["popChangePassword_RegularExpressionValidator1"] : document.getElementById("popChangePassword_RegularExpressionValidator1");
+popChangePassword_RegularExpressionValidator1.controltovalidate = "popChangePassword_txtNewPassword";
+popChangePassword_RegularExpressionValidator1.errormessage = "At Least 8 Characters & Complex Password";
+popChangePassword_RegularExpressionValidator1.display = "Dynamic";
+popChangePassword_RegularExpressionValidator1.validationGroup = "ChangePass";
+popChangePassword_RegularExpressionValidator1.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+popChangePassword_RegularExpressionValidator1.validationexpression = "(?=^.{8,30}$)(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*()_+}{\"\":;\'?/>.<,]).*$";
+var popChangePassword_RequiredFieldValidator10 = document.all ? document.all["popChangePassword_RequiredFieldValidator10"] : document.getElementById("popChangePassword_RequiredFieldValidator10");
+popChangePassword_RequiredFieldValidator10.controltovalidate = "popChangePassword_txtConfirmPassword";
+popChangePassword_RequiredFieldValidator10.errormessage = "*";
+popChangePassword_RequiredFieldValidator10.display = "Dynamic";
+popChangePassword_RequiredFieldValidator10.validationGroup = "ChangePass";
+popChangePassword_RequiredFieldValidator10.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+popChangePassword_RequiredFieldValidator10.initialvalue = "";
+var popChangePassword_CompareValidator1 = document.all ? document.all["popChangePassword_CompareValidator1"] : document.getElementById("popChangePassword_CompareValidator1");
+popChangePassword_CompareValidator1.controltovalidate = "popChangePassword_txtConfirmPassword";
+popChangePassword_CompareValidator1.errormessage = "Password and confirm password are different";
+popChangePassword_CompareValidator1.validationGroup = "ChangePass";
+popChangePassword_CompareValidator1.evaluationfunction = "CompareValidatorEvaluateIsValid";
+popChangePassword_CompareValidator1.controltocompare = "popChangePassword_txtNewPassword";
+popChangePassword_CompareValidator1.controlhookup = "popChangePassword_txtNewPassword";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        WebForm_AutoFocus('btnEnter');
+document.getElementById('RequiredFieldValidator5').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('RequiredFieldValidator5'));
+}
+
+document.getElementById('RequiredFieldValidator6').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('RequiredFieldValidator6'));
+}
+
+document.getElementById('RequiredFieldValidator1').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('RequiredFieldValidator1'));
+}
+
+document.getElementById('RequiredFieldValidator7').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('RequiredFieldValidator7'));
+}
+
+document.getElementById('RequiredFieldValidator2').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('RequiredFieldValidator2'));
+}
+
+document.getElementById('compValPassword').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('compValPassword'));
+}
+
+document.getElementById('ASPxPopupControl1_RequiredFieldValidator4').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ASPxPopupControl1_RequiredFieldValidator4'));
+}
+
+document.getElementById('popChangePassword_reqValPassword').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('popChangePassword_reqValPassword'));
+}
+
+document.getElementById('popChangePassword_RegularExpressionValidator1').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('popChangePassword_RegularExpressionValidator1'));
+}
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.PasswordStrengthExtenderBehavior, {"TextStrengthDescriptionStyles":"VeryPoor; Weak; Average; Excellent; Strong","barBorderCssClass":"BarBorder","helpHandlePosition":0,"id":"popChangePassword_PasswordStrength3","minimumNumericCharacters":1,"minimumSymbolCharacters":1,"minimumUpperCaseCharacters":1,"preferredPasswordLength":8,"prefixText":"Strength:","requiresUpperAndLowerCaseCharacters":true,"strengthIndicatorType":1,"strengthStyles":"VeryPoor; Weak; Average; Excellent; Strong","textStrengthDescriptions":"Very Poor;Weak;Average;Strong;Excellent"}, null, null, $get("popChangePassword_txtNewPassword"));
+});
+
+document.getElementById('popChangePassword_RequiredFieldValidator10').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('popChangePassword_RequiredFieldValidator10'));
+}
+
+document.getElementById('popChangePassword_CompareValidator1').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('popChangePassword_CompareValidator1'));
+}
+//]]>
+</script>
+</form>
+</body>
+</html>
